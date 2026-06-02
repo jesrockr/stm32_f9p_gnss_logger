@@ -80,7 +80,7 @@ Recommended workflow:
 
 ## IMPORTANT
 
-The STM32 sends a cold-start command to the F9P at boot. This requires the `PA9 / USART1 TX` connection to the F9P UART RX pin. The purpose is to prevent a portable base from silently reusing stale retained navigation/survey state after being moved. If hot start is needed (for rover configuration) simply do not connect this wire.
+The STM32 sends a `cold-start` command to the F9P at boot. This requires the `PA9 / USART1 TX` connection to the `F9P UART RX` pin. The purpose is to prevent a portable base from silently reusing stale retained navigation/survey state after being moved. If `hot-start` is needed (for rover configuration) simply do not connect this wire.
 
 ## QUICK START
 
@@ -89,7 +89,7 @@ The STM32 sends a cold-start command to the F9P at boot. This requires the `PA9 
 
 ## Recommended F9P Output Messages
 
-For PPK logging, enable on UART 1 (or whichever F9P PORT is connected to STM32 board):
+For PPK logging, enable on `UART 1` (or whichever F9P `PORT` is connected to STM32 `Rx` pin):
 
 - `UBX-RXM-RAWX`
 - `UBX-RXM-SFRBX`
@@ -100,7 +100,7 @@ Optional:
 
 - `UBX-NAV-SAT` at 1 Hz for richer satellite diagnostics
 
-Disable unnecessary NMEA and high-rate navigation messages unless you have confirmed the UART and SD write pipeline have enough bandwidth.
+Disable unnecessary `NMEA` and high-rate navigation messages unless you have confirmed the UART and SD write pipeline have enough bandwidth.
 
 
 ## OLED Logging Screen
@@ -140,7 +140,7 @@ The firmware configures the selected pin with `GPIO_PULLUP`, so the button press
 
 - For PPK, dropped bytes matter. Watch `WARNING OVERRUN`.
 - Use a good SD card and avoid removing power before writes are synced.
-- Keep unnecessary receiver messages disabled. We want bandwidth to remain as lean as possible.
+- Keep unnecessary f9p receiver messages disabled. We want bandwidth to remain as lean as possible.
 - Confirm logged `.UBX` files open correctly in u-center before relying on field data.
 - Long-duration testing is strongly recommended before survey use.
 
