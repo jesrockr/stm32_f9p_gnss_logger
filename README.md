@@ -13,9 +13,37 @@ This project was built around an STM32F407ZGT6 board with SDIO SD card access, F
 - Parses `UBX-NAV-PVT` passively for UTC time, fix type, and satellite count.
 - Uses GNSS UTC time for FatFS file timestamps once valid time is available.
 
+## Prerequisites
+
+Install the STM32 development tools from STMicroelectronics:
+
+- STM32CubeMX
+- STM32CubeIDE
+- STM32CubeProgrammer
+
+Download them from the official ST website:
+
+https://www.st.com/en/development-tools/stm32-software-development-tools.html
+
+Install u-blox u-center for configuring and testing the ZED-F9P:
+
+- u-center GNSS evaluation software
+
+Download from u-blox:
+
+https://www.u-blox.com/en/product/u-center
+
+Recommended workflow:
+
+- Use STM32CubeMX to inspect or regenerate peripheral configuration.
+- Use STM32CubeIDE to build/import the firmware project.
+- Use STM32CubeProgrammer to flash the compiled firmware to the STM32 board.
+  -NOTE: BOOT0 jumper must be soldered in order to flash board, then unsoldered to run program. Recommend install of a switch or two wires to simplify multiple flashes of board
+- Use u-center to configure the F9P output messages and verify `.UBX` log playback.  
+
 ## Recommended F9P Output Messages
 
-For PPK logging, enable:
+For PPK logging, enable on UART 1 (or whichever is connected output to STM32 board):
 
 - `UBX-RXM-RAWX`
 - `UBX-RXM-SFRBX`
