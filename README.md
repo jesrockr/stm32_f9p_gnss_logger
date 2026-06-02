@@ -77,7 +77,7 @@ Recommended workflow:
 
 ## Recommended F9P Output Messages
 
-For PPK logging, enable on UART 1 (or whichever is connected output to STM32 board):
+For PPK logging, enable on UART 1 (or whichever F9P PORT is connected to STM32 board):
 
 - `UBX-RXM-RAWX`
 - `UBX-RXM-SFRBX`
