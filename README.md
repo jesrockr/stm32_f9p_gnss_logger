@@ -13,9 +13,9 @@ This project was built around an STM32F407ZGT6 board with SDIO SD card access, F
 - Parses `UBX-NAV-PVT` passively for UTC time, fix type, and satellite count.
 - Uses GNSS UTC time for FatFS file timestamps once valid time is available.
 
-## Example Hardware
+## Hardware Used
 
-These are example parts only. Listings may change, and equivalent boards/modules should work if the pinout, voltage levels, and interfaces match.
+Listings may change, and equivalent boards/modules should work if the pinout, voltage levels, and interfaces match.
 
 
 
