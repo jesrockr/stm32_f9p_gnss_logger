@@ -13,6 +13,32 @@ This project was built around an STM32F407ZGT6 board with SDIO SD card access, F
 - Parses `UBX-NAV-PVT` passively for UTC time, fix type, and satellite count.
 - Uses GNSS UTC time for FatFS file timestamps once valid time is available.
 
+## Example Hardware
+
+These are example parts only. Listings may change, and equivalent boards/modules should work if the pinout, voltage levels, and interfaces match.
+
+### STM32F407ZGT6 Board
+
+![STM32F407ZGT6 board front](assets/stm32-board-front.jpg)
+
+![STM32F407ZGT6 board back](assets/stm32-board-back.jpg)
+
+Example purchase link: [AliExpress STM32F407ZGT6 board](https://www.aliexpress.us/item/3256809863003361.html?spm=a2g0o.order_list.order_list_main.41.49c11802SIBgZa&gatewayAdapt=glo2usa)
+
+### SSD1306 OLED
+
+![SSD1306 OLED module](assets/ssd1306-oled.jpg)
+
+![SSD1306 OLED pin labels](assets/ssd1306-oled-pins.jpg)
+
+Example purchase link: [AliExpress SSD1306 OLED](https://www.aliexpress.us/item/3256805954920554.html?spm=a2g0o.order_list.order_list_main.29.49c11802SIBgZa&gatewayAdapt=glo2usa)
+
+### ZED-F9P Module
+
+![ZED-F9P module](assets/zed-f9p-module.jpg)
+
+Example purchase link: [AliExpress ZED-F9P module](https://www.aliexpress.us/item/3256806049727804.html?spm=a2g0o.order_list.order_list_main.131.49c11802SIBgZa&gatewayAdapt=glo2usa)
+
 ## Prerequisites
 
 Install the STM32 development tools from STMicroelectronics:
