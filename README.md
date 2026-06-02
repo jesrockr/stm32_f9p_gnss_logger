@@ -35,8 +35,6 @@ Example purchase link: [AliExpress STM32F407ZGT6 board](https://www.aliexpress.u
 
 <img src="ssd1306-oled.jpg" alt="SSD1306 OLED module" width="350">
 
-<img src="ssd1306-oled-pins.jpg" alt="SSD1306 OLED pin labels" width="350">
-
 Example purchase link: [AliExpress SSD1306 OLED](https://www.aliexpress.us/item/3256805954920554.html?spm=a2g0o.order_list.order_list_main.29.49c11802SIBgZa&gatewayAdapt=glo2usa)
 
 
