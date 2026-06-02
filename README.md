@@ -92,6 +92,7 @@ For PPK logging, enable on UART 1 (or whichever F9P PORT is connected to STM32 b
 - `UBX-RXM-RAWX`
 - `UBX-RXM-SFRBX`
 - `UBX-NAV-PVT` at 1 Hz
+- `UBX-NAV-SVIN` at 1 Hz
 
 Optional:
 
