@@ -40,7 +40,8 @@ Common output files may include:
 *.hex
 These build output files are intentionally ignored by Git.
 
-Flash the STM32
+##Flash the STM32
+
 You can flash using STM32CubeIDE or STM32CubeProgrammer.
 
 Option 1: Flash From STM32CubeIDE
@@ -48,6 +49,7 @@ Connect the STM32 board to your computer using ST-LINK/SWD.
 In STM32CubeIDE, click the green Run button.
 Select the detected debug probe if prompted.
 STM32CubeIDE will build and flash the firmware.
+
 Option 2: Flash With STM32CubeProgrammer
 Open STM32CubeProgrammer.
 Connect using ST-LINK.
