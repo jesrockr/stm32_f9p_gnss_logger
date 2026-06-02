@@ -21,6 +21,7 @@ These are example parts only. Listings may change, and equivalent boards/modules
 
 
 ### STM32F407ZGT6 Board
+cost: $14.60
 
 ![STM32F407ZGT6 board front](stm32-board-front.jpg)
 
@@ -32,6 +33,7 @@ Example purchase link: [AliExpress STM32F407ZGT6 board](https://www.aliexpress.u
 
 
 ### SSD1306 OLED
+cost: $2.60
 
 <img src="ssd1306-oled.jpg" alt="SSD1306 OLED module" width="350">
 
@@ -41,7 +43,7 @@ Example purchase link: [AliExpress SSD1306 OLED](https://www.aliexpress.us/item/
 
 
 ### ZED-F9P Module
-
+cost: $103.62
 <img src="zed-f9p-module.jpg" alt="ZED-F9P module" width="350">
 
 Example purchase link: [AliExpress ZED-F9P module](https://www.aliexpress.us/item/3256806049727804.html?spm=a2g0o.order_list.order_list_main.131.49c11802SIBgZa&gatewayAdapt=glo2usa)
