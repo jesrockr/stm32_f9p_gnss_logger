@@ -11,20 +11,24 @@
 ## Wiring
 
 USB POWER BANK    --->  ZED-F9P USB-C 
+
 USB POWER BANK    --->  STM32 USB-C 
 
 ZED-F9P GND       --->  STM32 GND
 
 ZED-F9P UART1 TX  --->  STM32 PA10 / USART1 RX
+
 ZED-F9P UART1 RX  <---  STM32 PA9 / USART1 TX
   
 
 
 
 OLED SCL/SCK      --->  STM32 PB6 / I2C1 SCL
+
 OLED SDA          --->  STM32 PB7 / I2C1 SDA
 
 OLED VDD          --->  STM32 3V3
+
 OLED GND          --->  STM32 GND
 
 
