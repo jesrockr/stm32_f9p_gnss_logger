@@ -20,14 +20,14 @@ Unless specifically needed, disable:
 
 ## Baud Rate
 
-The working setup has not yet been changed from its current baud. A future recommended setting is:
+The STM32 firmware expects the F9P UART connected to the logger to run at `460800` baud:
 
 ```text
 F9P UART:     460800
-STM32 USART: 460800
+STM32 USART1: 460800
 ```
 
-Change both sides together. If connected to the F9P over USB in u-center, remember that USB baud display may not reflect the physical UART baud going to the STM32.
+If connected to the F9P over USB in u-center, remember that USB baud display may not reflect the physical UART baud going to the STM32. Configure the actual F9P UART port that feeds the logger.
 
 ## Saving Configuration
 
@@ -38,4 +38,3 @@ In u-center, save the receiver configuration to persistent memory when possible:
 - Flash, if available
 
 If saving is unreliable, first test with RAM-only settings, then power-cycle to confirm whether the configuration is retained.
-
