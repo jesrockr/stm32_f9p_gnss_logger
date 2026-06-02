@@ -8,20 +8,25 @@
 - Display: SSD1306 128x64 OLED over I2C
 - Storage: SD card over SDIO
 
-## Connections
+## Wiring
+USB POWER         --->  ZED-F9P USB-C 
 
-Document the exact wiring used in your build before publishing:
+ZED-F9P UART1 TX  --->  STM32 PA10 / USART1 RX
+ZED-F9P 3V3       --->  STM32 3V3  
+ZED-F9P GND       --->  STM32 GND
 
+OLED SCL/SCK      --->  STM32 PB6 / I2C1 SCL
+OLED SDA          --->  STM32 PB7 / I2C1 SDA
+OLED VDD          --->  STM32 3V3
+OLED GND          --->  STM32 GND
+
+KEY NOTES:
 - F9P UART TX to STM32 USART RX
 - F9P GND to STM32 GND
 - OLED SDA/SCL to STM32 I2C pins
 - SD card connected through board SDIO socket/interface
 
-Recommended additions:
 
-- Add a wiring photo.
-- Add a pin table.
-- Add board revision notes, especially if using a clone/development board.
 
 ## Optional External Button
 
