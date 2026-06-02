@@ -1,0 +1,5 @@
+## Test Results
+
+| Date | Duration | Baud | Messages | Result |
+|---|---:|---:|---|---|
+| 2026-06-02 | 102 min | 460800 | RAWX, SFRBX, NAV-PVT | 0 overruns |
