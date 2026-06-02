@@ -1,55 +1,32 @@
-# Prerequisites
-*.d
+# STM32CubeIDE / Eclipse
+.metadata/
+.settings/
+.project
+.cproject
+.mxproject
 
-# Object files
-*.o
-*.ko
-*.obj
+# Build outputs
+Debug/
+Release/
+build/
 *.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
+*.bin
 *.hex
-
-# Debug files
-*.dSYM/
+*.map
+*.list
+*.o
+*.d
 *.su
-*.idb
-*.pdb
+*.cyclo
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Local/editor files
+.vscode/
+.idea/
+*.swp
+*.tmp
+Thumbs.db
 
-# debug information files
-*.dwo
+# SD card test logs
+GNSS*.UBX
+*.ubx
+
