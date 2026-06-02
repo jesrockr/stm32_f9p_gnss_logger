@@ -23,7 +23,7 @@ These are example parts only. Listings may change, and equivalent boards/modules
 ### STM32F407ZGT6 Board
 cost: $14.60
 
-![STM32F407ZGT6 board front](stm32-board-front.jpg)
+![STM32F407ZGT6 board front](assets/stm32-board-front.jpg)
 
 ![STM32F407ZGT6 board back](stm32-board-back.jpg)
 
