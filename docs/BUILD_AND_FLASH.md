@@ -40,7 +40,8 @@ Common output files may include:
 *.hex
 These build output files are intentionally ignored by Git.
 
-##Flash the STM32
+
+## FLASH THE STM32
 
 You can flash using STM32CubeIDE or STM32CubeProgrammer.
 
