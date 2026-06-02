@@ -80,7 +80,7 @@ Recommended workflow:
 
 ## IMPORTANT
 
-The STM32 sends a `cold-start` command to the F9P at boot. This requires the `PA9 / USART1 TX` connection to the `F9P UART RX` pin. The purpose is to prevent a portable base from silently reusing stale retained navigation/survey state after being moved. If `hot-start` is needed (for rover configuration) simply do not connect this wire.
+The STM32 sends a `cold-start` command to the F9P at boot. This requires the `PA9 / USART1 TX` connection to the `F9P UART1 RX` pin. The purpose is to prevent a portable base from silently reusing stale retained navigation/survey state after being moved. If `hot-start` is needed (for rover configuration) simply do not connect this wire.
 
 ## QUICK START
 
@@ -123,6 +123,8 @@ Warnings:
 ## Optional External New-Log Button
 
 It might be of interest to add a button to start/stop recording, by advancing to a new file. This would be for using the f9p configured as a rover, instead of a static base station. Separate .ubx files could be logged to discriminate between multiple ground control points.
+
+If you leave STM32 `PA9 UART1 Tx` pin connected to f9p `UART1 Rx` pin it will force `cold-start` upon each button press. Advise leaving this wire disconnected to ensure 'hot-start' for rover configuration.
 
 The onboard FK407M2-ZGT6 `KEY` button was not reliable as a readable GPIO during testing. Button-triggered file rotation is disabled by default.
 
