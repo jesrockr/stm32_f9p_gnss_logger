@@ -10,13 +10,15 @@
 
 ## Wiring
 
-USB POWER         --->  ZED-F9P USB-C 
+USB POWER BANK    --->  ZED-F9P USB-C 
+USB POWER BANK    --->  STM32 USB-C 
+
+ZED-F9P GND       --->  STM32 GND
 
 ZED-F9P UART1 TX  --->  STM32 PA10 / USART1 RX
 ZED-F9P UART1 RX  <---  STM32 PA9 / USART1 TX
+  
 
-ZED-F9P 3V3       --->  STM32 3V3  
-ZED-F9P GND       --->  STM32 GND
 
 
 OLED SCL/SCK      --->  STM32 PB6 / I2C1 SCL
@@ -31,7 +33,7 @@ KEY NOTES:
 - F9P GND to STM32 GND
 - OLED SDA/SCL to STM32 I2C pins
 - SD card connected through board SDIO socket/interface
-
+- Power each board separately, not advised to share 3v3 rails
 
 
 ## Optional External Button
