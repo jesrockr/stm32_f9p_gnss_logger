@@ -90,11 +90,6 @@ Optional:
 
 Disable unnecessary NMEA and high-rate navigation messages unless you have confirmed the UART and SD write pipeline have enough bandwidth.
 
-## Current Baud Note
-
-The current working setup has been left unchanged because it logs successfully. A future improvement is to raise the F9P UART and STM32 USART baud rate together, likely to `460800`, for more headroom.
-
-Do not change only one side. The F9P UART baud and STM32 USART baud must match.
 
 ## OLED Logging Screen
 
