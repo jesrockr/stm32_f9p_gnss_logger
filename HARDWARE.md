@@ -6,7 +6,7 @@
 - Board: FK407M2-ZGT6 V1.1 style development board
 - GNSS receiver: u-blox ZED-F9P
 - Display: SSD1306 128x64 OLED over I2C
-- Storage: SD card over SDIO
+- Storage: microSD card over SDIO (SanDisk Ultra 16GB)
 
 ## Wiring
 
