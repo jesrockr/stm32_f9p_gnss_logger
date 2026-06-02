@@ -71,7 +71,7 @@ Recommended workflow:
 - Use STM32CubeMX to inspect or regenerate peripheral configuration.
 - Use STM32CubeIDE to build/import the firmware project.
 - Use STM32CubeProgrammer to flash the compiled firmware to the STM32 board.
-  -NOTE: BOOT0 jumper must be soldered in order to flash board, then unsoldered to run program. Recommend install of a switch or two wires to simplify multiple flashes of board
+- NOTE: BOOT0 jumper must be soldered in order to flash board, then unsoldered to run program. Recommend install of a switch or two wires to simplify multiple flashes of board
 - Use u-center to configure the F9P output messages and verify `.UBX` log playback.
 - Insert FAT32 formatted SD card into onboard STM32 slot.
 
