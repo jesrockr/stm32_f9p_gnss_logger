@@ -134,6 +134,3 @@ The firmware configures the selected pin with `GPIO_PULLUP`, so the button press
 - Confirm logged `.UBX` files open correctly in u-center before relying on field data.
 - Long-duration testing is strongly recommended before survey use.
 
-## Repository Status
-
-This is an early public-draft project. The firmware has been tested enough to log UBX files that play back in u-center, but the docs and reproducibility steps still need cleanup before a polished release.
