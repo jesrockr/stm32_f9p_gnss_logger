@@ -97,18 +97,11 @@ Do not change only one side. The F9P UART baud and STM32 USART baud must match.
 
 ## OLED Logging Screen
 
-Typical logging screen:
+Typical boot up / logging screen:
 
-```text
-SD WRITE 55KB OK
+<img src="boot screen.jpg" alt="boot screen" width="350">
 
-GNSS001.UBX
-
-LOGGING || 03:42
-
-SAT=18 3D
-     UTC=18:24:11
-```
+<img src="logging screen.jpg" alt="logging screen" width="350">
 
 Warnings:
 
