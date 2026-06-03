@@ -63,7 +63,7 @@ Option 2: Flash With STM32CubeProgrammer
 - Open the compiled firmware file from the Debug/ folder.
 - Click Download to flash the STM32.
 
-First Boot Check
+First Boot Check:
 - After flashing:
 - Insert a FAT-formatted SD card.
 - Connect the ZED-F9P UART output to the STM32.
