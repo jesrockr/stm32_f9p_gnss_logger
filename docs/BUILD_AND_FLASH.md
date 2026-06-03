@@ -101,7 +101,7 @@ OLED Works But No GNSS Data
       Grounds are connected.
       F9P is outputting UBX messages on the UART connected to STM32.`
 
-SD Mount Fails
+SD card `Mount Fail` Appears
   
    -Check:
 
@@ -119,7 +119,7 @@ Log File Does Not Grow
       Baud rate match.
       OLED warning messages.`
 
-WARNING OVERRUN Appears
+`WARNING OVERRUN` Appears
   - The logger detected that incoming GNSS bytes may have been dropped.
 
        - Possible causes:
