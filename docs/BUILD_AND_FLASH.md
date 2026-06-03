@@ -71,7 +71,7 @@ First Boot Check
 - Watch the OLED boot sequence.
 
 
-   Expected boot/logging behavior:
+  ## Expected boot/logging behavior:
 
       BOOT
       UART CFG
@@ -81,7 +81,7 @@ First Boot Check
       OPEN=OK SYNC=OK
       GNSS001.UBX READY
    
-   During logging, the OLED should show something like:
+  ## During logging, the OLED should show something like:
 
       SD WRITE 55KB OK
       GNSS001.UBX
