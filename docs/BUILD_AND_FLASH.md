@@ -51,7 +51,7 @@ These build output files are intentionally ignored by Git.
 
 Option 1: Flash From STM32CubeIDE
 
-- Connect the STM32 board to your computer using ST-LINK/SWD.
+- Connect the STM32 board to your computer using ST-LINK/SWD/USB-C.
 - In STM32CubeIDE, click the green Run button.
 - Select the detected debug probe if prompted.
 - STM32CubeIDE will build and flash the firmware.
@@ -61,7 +61,7 @@ Option 2 (Preferred): Flash With STM32CubeProgrammer
 - Open STM32CubeProgrammer.
 - Connect STM32 board using USB-C.
 - Select `USB` and hit `⟳` then hit `Connect`.
-- NOTE: USB only available when BOOT0 jumper pad is bridged.
+- NOTE: USB only available when `BOOT0` jumper pad is bridged.
 - Find/select the compiled firmware filepath from the Debug/ folder.
 - Click `Start Programming` to flash the STM32.
 - Unplug USB
