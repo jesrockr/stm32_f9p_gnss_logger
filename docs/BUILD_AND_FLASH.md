@@ -31,13 +31,14 @@ https://www.st.com/en/development-tools/stm32-software-development-tools.html
 
 The compiled firmware will be generated in the build output folder, usually:
 
-Debug/
+`Debug/`
 
 Common output files may include:
 
-*.elf
+`*.elf
 *.bin
-*.hex
+*.hex`
+
 These build output files are intentionally ignored by Git.
 
 
