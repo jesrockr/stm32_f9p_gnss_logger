@@ -88,8 +88,11 @@ Watch the OLED boot sequence.
       SAT=18 3D
       UTC=18:24:11
 
-Troubleshooting
+
+## TROUBLESHOOTING
+
 OLED Works But No GNSS Data
+  
    -Check:
 
       `F9P UART baud is 460800.
@@ -99,6 +102,7 @@ OLED Works But No GNSS Data
       F9P is outputting UBX messages on the UART connected to STM32.`
 
 SD Mount Fails
+  
    -Check:
 
      `SD card is inserted.
@@ -107,6 +111,7 @@ SD Mount Fails
       Confirm SDIO pins match the board design.`
 
 Log File Does Not Grow
+  
    -Check:
 
       `GNSS UART wiring.
