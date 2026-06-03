@@ -56,12 +56,14 @@ Option 1: Flash From STM32CubeIDE
 - Select the detected debug probe if prompted.
 - STM32CubeIDE will build and flash the firmware.
 
-Option 2: Flash With STM32CubeProgrammer
+Option 2 (Preferred): Flash With STM32CubeProgrammer
 
 - Open STM32CubeProgrammer.
-- Connect using ST-LINK.
-- Open the compiled firmware file from the Debug/ folder.
-- Click Download to flash the STM32.
+- Connect STM32 board using USB-C.
+- Select `USB` and hit `⟳` then hit `Connect`.
+- Find/select the compiled firmware filepath from the Debug/ folder.
+- Click `Start Programming` to flash the STM32.
+- Unplug USB
 
 First Boot Check:
 - After flashing:
