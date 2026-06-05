@@ -9,6 +9,7 @@
 - Storage: microSD card over SDIO (SanDisk Ultra 16GB)
 
 ## Wiring
+
 <img src="assets/BASEWIRINGDIAGRAM.png" alt="BASEWIRINGDIAGRAM" width="700">
 
 USB POWER BANK    --->  ZED-F9P USB-C 
