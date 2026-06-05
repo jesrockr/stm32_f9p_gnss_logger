@@ -119,23 +119,6 @@ Warnings:
 - `TIME` is the standard fix type once position is surveyed-in.
 - If `SAT=0` and `NO FIX`, check antenna.
 
-## Optional External New-Log Button
-
-It might be of interest to add a button to start/stop recording, by advancing to a new file. This would be for using the f9p configured as a rover, instead of a static base station. Separate .ubx files could be logged to discriminate between multiple ground control points.
-
-If you leave STM32 `PA9 UART1 Tx` pin connected to f9p `UART1 Rx` pin it will force `cold-start` upon each button press. Advise leaving this wire disconnected to ensure `hot-start` for rover configuration.
-
-The onboard FK407M2-ZGT6 `KEY` button was not reliable as a readable GPIO during testing. Button-triggered file rotation is disabled by default.
-
-The firmware includes a disabled compile-time option for a future external momentary switch. Wire a switch between a confirmed-free GPIO header pin and GND, then enable the option in `main.c`:
-
-```c
-#define BUTTON_ROTATE_LOG_ENABLED 1
-#define BUTTON_ROTATE_LOG_PORT GPIOE
-#define BUTTON_ROTATE_LOG_PIN GPIO_PIN_4
-```
-
-The firmware configures the selected pin with `GPIO_PULLUP`, so the button press pulls the pin low.
 
 ## Important Reliability Notes
 
