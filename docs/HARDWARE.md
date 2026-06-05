@@ -10,7 +10,7 @@
 
 ## Wiring
 
-<img src="assets/BASE WIRING DIAGRAM.png" width="700">
+<img src="assets/BASE_WIRING_DIAGRAM.png" width="700">
 
 USB POWER BANK    --->  ZED-F9P USB-C 
 
