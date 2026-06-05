@@ -20,7 +20,7 @@ Listings may change, and equivalent boards/modules should work if the pinout, vo
 
 
 
-### STM32F407ZGT6 Board
+## STM32F407ZGT6 Board
 cost: $14.60
 
 ![STM32F407ZGT6 board front](assets/stm32-board-front.jpg)
@@ -31,7 +31,7 @@ Purchase link: [AliExpress STM32F407ZGT6 board](https://www.aliexpress.us/item/3
 
 
 
-### SSD1306 OLED
+## SSD1306 OLED
 cost: $2.60
 
 <img src="assets/ssd1306-oled.jpg" alt="SSD1306 OLED module" width="350">
@@ -41,7 +41,7 @@ Purchase link: [AliExpress SSD1306 OLED](https://www.aliexpress.us/item/32568059
 
 
 
-### ZED-F9P Module
+## ZED-F9P Module
 cost: $103.62
 
 <img src="assets/zed-f9p-module.jpg" alt="ZED-F9P module" width="350">
