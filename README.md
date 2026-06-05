@@ -22,8 +22,7 @@ Listings may change, and equivalent boards/modules should work if the pinout, vo
 
 ## STM32F407ZGT6 Board
 cost: $14.60
-
-![STM32F407ZGT6 board front](assets/stm32-board-front.jpg)
+<img src="assets/stm32-board-front.jpg" alt="STM32" width="200">)
 
 
 Purchase link: [AliExpress STM32F407ZGT6 board](https://www.aliexpress.us/item/3256809863003361.html?spm=a2g0o.order_list.order_list_main.41.49c11802SIBgZa&gatewayAdapt=glo2usa)
@@ -34,7 +33,7 @@ Purchase link: [AliExpress STM32F407ZGT6 board](https://www.aliexpress.us/item/3
 ## SSD1306 OLED
 cost: $2.60
 
-<img src="assets/ssd1306-oled.jpg" alt="SSD1306 OLED module" width="350">
+<img src="assets/ssd1306-oled.jpg" alt="SSD1306 OLED module" width="200">
 
 Purchase link: [AliExpress SSD1306 OLED](https://www.aliexpress.us/item/3256805954920554.html?spm=a2g0o.order_list.order_list_main.29.49c11802SIBgZa&gatewayAdapt=glo2usa)
 
@@ -44,7 +43,7 @@ Purchase link: [AliExpress SSD1306 OLED](https://www.aliexpress.us/item/32568059
 ## ZED-F9P Module
 cost: $103.62
 
-<img src="assets/zed-f9p-module.jpg" alt="ZED-F9P module" width="350">
+<img src="assets/zed-f9p-module.jpg" alt="ZED-F9P module" width="200">
 
 Purchase link: [AliExpress ZED-F9P module](https://www.aliexpress.us/item/3256806049727804.html?spm=a2g0o.order_list.order_list_main.131.49c11802SIBgZa&gatewayAdapt=glo2usa)
 
@@ -106,9 +105,9 @@ Disable unnecessary `NMEA` and high-rate navigation messages unless you have con
 
 Typical boot up / logging screen:
 
-<img src="assets/boot screen.jpg" alt="boot screen" width="350">
+<img src="assets/boot screen.jpg" alt="boot screen" width="200">
 
-<img src="assets/logging screen.jpg" alt="logging screen" width="350">
+<img src="assets/logging screen.jpg" alt="logging screen" width="200">
 
 Warnings:
 
