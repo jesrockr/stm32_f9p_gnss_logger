@@ -22,6 +22,7 @@ Listings may change, and equivalent boards/modules should work if the pinout, vo
 
 ## STM32F407ZGT6 Board
 cost: $14.60
+
 <img src="assets/stm32-board-front.jpg" alt="STM32" width="200">
 
 
