@@ -2,20 +2,15 @@
 
 ## Eventually
 
-- Add `SURVEYING IN` live accuracy update (ex: `0.79M`) and/or time counter (ex: `405/600s`)
-- Add exact board wiring table.
+- Add `SURVEYING IN` live accuracy update (ex: `0.79M`) and/or remaining time counter (ex: `405/600s`)
 - Add photos of the assembled logger.
 - Add u-center screenshots or step-by-step F9P config export.
 - Add build/import instructions for STM32CubeIDE.
-- Add SD card formatting recommendation.
-- Add tested file playback workflow in u-center.
 - Add long-duration logging test results.
 
 ## Nice-To-Have Improvements
 
-- Export a known-good F9P configuration file.
-- Add optional external button wiring diagram.
 - Add case/enclosure notes.
 - Add power consumption notes.
 - Add PPK processing example workflow.
-
+- Youtube video on build
