@@ -2,6 +2,7 @@
 
 ## Eventually
 
+- Add `SURVEYING IN` live accuracy update (ex: `0.79M`) and/or time counter (ex: `405/600s`)
 - Add exact board wiring table.
 - Add photos of the assembled logger.
 - Add u-center screenshots or step-by-step F9P config export.
