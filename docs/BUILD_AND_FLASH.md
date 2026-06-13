@@ -60,7 +60,7 @@ Option 2 (Preferred): Flash With STM32CubeProgrammer
 
 - Open STM32CubeProgrammer.
 - Connect STM32 board using USB-C.
-- Select `USB` and hit `⟳` then hit `Connect`.
+- Select `USB` or `ST LINK` and hit `⟳` then hit `Connect`.
 - NOTE: USB only available when `BOOT0` jumper pad is bridged.
 - Find/select the compiled firmware filepath from the Debug/ folder.
 - Click `Start Programming` to flash the STM32.
